@@ -1,0 +1,89 @@
+　今日、Bugzilla プロジェクトは、Bugzilla 3.5.1, 3.4.3, 3.0.10 をリリースいたし
+ました。
+　また、これと同時に bug-ja.org - Bugzilla Users Group in Japan では、3.5.1, 3.4.3
+向けの日本語テンプレートパックをリリースいたしました。
+
+　Bugzilla 3.4.3 は Bugzilla の最新の安定板リリースで、いくつかの有用なバグ修正と
+細かな機能追加が行われています。
+
+　Bugzilla 3.0.10 は 3.0.9 で発生した Bug.create ウェブサービスの機能が時々失敗す
+る問題を修正しています。
+
+　Bugzilla 3.5.1 は Bugzilla 3.6 に向けての最初の開発版リリースです。
+　以下にある Bugzilla アップデートリンクから確認できる、いくつもの期待される新機能
+を含みます。このリリースは、Bugzilla プロジェクトの QA テストを経ていないリリース
+で、実運用環境で利用すべきではありません。この開発版に対するバグ (や新機能の動作に
+対する不満) があれば連絡してください！このコードは 3.6 に含まれることになりますの
+で、ユーザの望むようなものにしたいと考えています。
+
+ダウンロード
+------------
+Bugzilla は次のリンクからダウンロードできます。
+
+  http://www.bugzilla.org/download/
+
+日本語版テンプレートは次のリンクからダウンロードできます。
+
+  http://bug-ja.org/
+
+リリースノートと更新点
+----------------------
+インストールやアップグレードのまえに、該当バージョンのリリースノートを参照してくだ
+さい。
+
+  3.4.3:  http://www.bugzilla.org/releases/3.4.3/release-notes.html (英語)
+  3.0.10: http://www.bugzilla.org/releases/3.0.10/release-notes.html (英語)
+
+　日本語版は、日本語版テンプレートの中に含まれます。(pages/release-notes.html.tmpl)
+
+　メジャーバージョン間のアップグレードを行う場合には、リリースノートを読むことが重
+重要となります。(3.2.x から 3.4.x など)
+
+　現状の Bugzilla のバージョン間でのすべての更新点のリストについては、次のチャート
+を参照してください。
+
+  http://www.bugzilla.org/status/changes.html
+
+
+Bugzilla アップデート
+---------------------
+Bugzilla プロジェクトの最新の開発版リリースやアップデートに関する、ニュースや情報
+は、次のリンクから入手できます。
+
+  http://bugzillaupdate.wordpress.com/2009/11/05/release-3-4-3/
+
+バグの報告
+----------
+Bugzilla のバグを発見した場合、報告してください！手順などは次の URL にあります。
+
+  http://www.bugzilla.org/developers/reporting_bugs.html (英語)
+
+なお、日本語版に関しては、bugzilla@jpmoz へお願いします。
+
+  http://bug-ja.org/bugzilla-jpmoz/ (現状)
+  http://bugzilla.jpmoz.net/ (予定)
+
+サポート
+--------
+Bugzilla に関する、英語のメーリングリストや IRC もあります。もしくは、有償サポー
+トを提供するコンサルタントも存在します。
+
+  無償サポート: http://www.bugzilla.org/support/
+  有償サポート: http://www.bugzilla.org/support/consulting.html
+
+
+Bugzilla とは
+-------------
+　Bugzilla は、"欠陥追跡システム" や "問題追跡システム" です。
+　欠陥追跡システムでは、開発者個人やグループが、製品に存在するバグを効率よく追跡
+することができます。通常の商用欠陥追跡システムでは費用がかかります。Bugzilla は、
+"フリー" でありながら、そのような商用システムが持っていないような機能もあります。
+その結果、Bugzilla は全世界にわたる数千もの組織に利用されるようになり、もっとも
+よく利用される欠陥追跡システムとして広く認知されています。
+
+　詳細は http://www.bugzilla.org/about/ をご覧ください。
+
+  -Max Kanat-Alexander
+  Release Manager, Bugzilla Project
+  
+  日本語版 : bug-ja.org

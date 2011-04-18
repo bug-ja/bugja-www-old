@@ -1,0 +1,81 @@
+　Bugzilla プロジェクトでは、1件のセキュリティー問題を修正するために、
+Bugzilla 3.4.4, 3.5.2 をリリースしました。
+　bug-ja.org では、これに伴い、Bugzilla-ja 3.4.4, 3.5.2 をリリースし
+ました。
+
+　Bugzilla 3.4.4 は最新の安定版リリースです。いくつかの小さなバグ修
+正も行われています。
+
+　Bugzilla 3.5.2 は Bugzilla 3.6 に向けての最新の開発版リリースで、
+セキュリティー修正に加えていくつかの新機能が追加されています。この
+リリースは Bugzilla プロジェクトによる QA テストをへておらず、実運
+用環境で利用すべきではありません。もし、この開発版リリースにおいて
+バグを発見した (もしくは機能の動作に不満がある) 場合、われわれに連
+絡してください。このコードは 3.6 になるそのもので、利用者の希望に
+沿うものにしたいと考えています。
+
+ダウンロード
+------------
+　Bugzilla のダウンロードは次の URL から行えます。
+    http://www.bugzilla.org/download/
+
+　日本語版テンプレートは bug-ja.org から配布されています。
+    http://bug-ja.org/releases/
+
+リリースノートと変更点
+----------------------
+　アップグレードを行う前に、該当バージョンのリリースノートを読んで
+ください。
+
+    3.4.4: http://www.bugzilla.org/releases/3.4.4/release-notes.html (英語)
+
+　日本語版は、日本語版テンプレートの中に含まれます。
+　(pages/release-notes.html.tmpl)
+
+　3.2.x から 3.4 へなど、メジャーバージョン間のアップグレードを検討
+している場合にはリリースノートを読むことが非常に重要です。
+
+　利用中のバージョンから最新のバージョンまでに行われた全修正のリスト
+は、次のチャートを参照してください。
+
+    http://www.bugzilla.org/status/changes.html
+
+
+バグ報告
+--------
+　Bugzilla にバグを発見した場合、報告してください！
+　報告方法は次の URL にあります。
+
+    http://www.bugzilla.org/developers/reporting_bugs.html
+
+　日本語版テンプレート、および日本語でのバグの報告は bugzilla@jpmoz
+の bug-ja プロダクトまで報告してください。
+
+    http://bugzilla.jpmoz.net/
+
+
+サポート
+--------
+　Bugzilla に関する、英語のメーリングリストや IRC もあります。もしく
+は、有償サポートを提供するコンサルタントも存在します。
+
+ 無償サポート: http://www.bugzilla.org/support/
+ 有償サポート: http://www.bugzilla.org/support/consulting.html
+
+
+Bugzilla とは
+-------------
+　Bugzilla は、"欠陥追跡システム" や "問題追跡システム" です。
+　欠陥追跡システムでは、開発者個人やグループが、製品に存在するバグを
+効率よく追跡することができます。通常の商用欠陥追跡システムでは費用が
+かかります。Bugzilla は、"フリー" でありながら、そのような商用システ
+ムが持っていないような機能もあります。その結果、Bugzilla は全世界に
+わたる数千もの組織に利用されるようになり、もっともよく利用される欠陥
+追跡システムとして広く認知されています。
+
+　詳細は http://www.bugzilla.org/about/ をご覧ください。
+
+ -Max Kanat-Alexander
+ Release Manager, Bugzilla Project
+
+ 日本語版 : bug-ja.org

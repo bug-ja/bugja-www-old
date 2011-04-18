@@ -1,0 +1,84 @@
+※ 注: 以下の説明もしくはリンクの内のいくつかはbug-ja準備立ち上げに伴い、
+現状とあわない部分が出てきておりますが、元のアナウンスそのままに掲載してお
+ります。
+
+　オープンソースのバグトラッキングシステム Bugzilla がメジャーアップデート
+となる「Bugzilla 3.4」をリリース
+
+
+　Mozilla のコミュニティベースのプロジェクト「Bugzilla プロジェクト (*1)」
+では、メジャーリリースバージョンである Bugzilla 3.4 (*2) を 2009/7/28 に
+リリースいたしました。
+　Bugzilla は、オープンソースソフトウェアとしてリリースされており、多くの
+OSS プロジェクトや企業等、さまざまな組織において欠陥追跡ソフトウェアとし
+て利用されている (*3) Web アプリケーションです。
+
+　このリリースでは、
+・非常に簡略化されたバグ登録ページ
+・新フロントエンドページ
+・ユーザのメールアドレスをspam防止目的でログアウトユーザから隠す
+・バグ更新の高速化のためメール送信処理をバックエンドで実行できるように
+・検索URLを短縮化し、より共有しやすい形に
+・有用な新しいカスタムフィールド型の導入
+・他の Bugzilla と連携し、それぞれのバグの相互参照機能をサポート
+など、さまざまな改善点を含みます。これらの改善点の詳細に関しては、リリース
+ノート (*4) や、リリースニュース (*5)、新機能一覧 (*6) などをご参照くださ
+い。
+
+　Bugzilla 3.4 は landfill.bugzilla.org (*7) もしくは、Bugzilla-ja プロジェ
+クト試験サイト (*8) で実際に試していただくことが可能です。
+
+
+　Bugzilla-ja プロジェクト (*9) では、Bugzilla 3.4 向けの日本語版テンプレー
+トをリリース (*10) しております。この日本語版の開発に関しては、Subversion
+レポジトリを公開 (*11) しており、Bugzilla-ja プロジェクトでは協力者を募集
+中 (*12) です。
+　また、Bugzilla-ja プロジェクトで (*9) は、日本における Bugzilla の運用や
+活用を行っているユーザ向けのユーザコミュニティーの立ち上げを検討中 (*13)
+です。こちらの議論に興味のある方は、以下宛にお問い合わせください。
+
+　日本における Bugzilla ユーザコミュニティについてのご意見はこちらまで。
+http://www.mozilla.gr.jp/~shimono/contact.cgi
+
+
+
+　これらのリリースに伴い、過去のバージョンの取り扱いは以下のようになります。
+・Bugzilla 2.22 系列はメンテナンスされません
+・Bugzilla 3.0 系列はセキュリティー修正のみの提供となります
+・Bugzilla-ja 3.0 系列はすでにメンテナンスされておりません
+・Bugzilla-ja 3.2 系列移行はバグ修正を含めて追随します
+
+
+
+リンク
+*1 Bugzilla Project
+     http://www.bugzilla.org/
+*2 Bugzilla 3.4
+     http://www.bugzilla.org/download/#v34
+     http://www.bugzilla.org/docs/3.4/en/html/
+*3 major Bugzilla installations and the version they were running
+     http://lpsolit.wordpress.com/2009/07/15/130000-downloads-of-bugzilla-3-2-3/
+*4 Bugzilla 3.4 リリースノート
+     http://www.bugzilla.org/releases/3.4/release-notes.html
+     http://bug-ja-304.test.mozilla.gr.jp/page.cgi?id=release-notes.html
+*5 Bugzilla 3.4 Release News
+    http://www.bugzilla.org/news/#release34
+*6 Bugzilla 3.4 New Futures
+     http://www.bugzilla.org/releases/3.4/release-notes.html#v34_feat
+     http://bug-ja-304.test.mozilla.gr.jp/page.cgi?id=release-notes.html#v34_feat
+*7 landfill: The Bugzilla Test Server
+     https://landfill.bugzilla.org/
+     https://landfill.bugzilla.org/bugzilla-3.4-branch/
+*8 Bugzilla-ja 3.4 試験サイト
+     http://bug-ja-304.test.mozilla.gr.jp/
+*9 Bugzilla-ja Project
+     https://developer.mozilla.org/ja/Bugzilla-ja
+*10 Bugzilla-ja 3.4 release
+     ftp://ftp.mozilla.gr.jp/Bugzilla-ja/3.4/
+*11 Bugzilla-ja 3.4 Subversion レポジトリ
+    http://services.mozilla.gr.jp/public/bugzilla-l10n-ja-3.4/
+*12 Bugzilla-ja Project l10n ドキュメント
+    https://developer.mozilla.org/ja/Bugzilla-ja/l10n
+*13 Bugzilla Users Group in Japan (BUG-ja)
+     http://www.mozilla.gr.jp/~shimono/mozwiki/index.php/Bugzilla-Users
+
