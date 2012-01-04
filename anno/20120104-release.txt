@@ -1,0 +1,126 @@
+　Bugzilla プロジェクトでは、Bugzilla 4.2 の最初のリリース候補版と、4.0 に
+対する更新版、3.4.x と 3.6.x に対するセキュリティー更新版をリリースしました。
+
+　Bugzilla 4.2rc1 は、Bugzilla 4.2 の最初のリリース候補版です。このリリース
+は QA のテストを経ていますので、これまでの開発版に比べて多少なりと安定して
+いると考えられます。しかしながら、完全に安定しているとはいえないため、利用
+する際には自己責任であることをご了解ください。特に、ウェブサービス関連のい
+くつかの機能はこのリリース候補版のレベルまでははまだ試験されていないため、
+リリースまでに変更が入る可能性があります。
+
+　このリリース候補版へのフィードバックより、リリースが安定しているといえる
+状況であれば Bugzilla 4.2 は数週間でリリースされます。しかしながら、より大
+きな修正が必要と考えられる場合は、このあともリリース候補版がリリースされる
+可能性もあります。
+
+
+　Bugzilla 4.0.3 は最新の安定板リリースです。4.0 ブランチでのいくつかの有用
+なバグ修正やセキュリティー更新が行われています。
+
+　Bugzilla 3.6.7 と 3.4.13 は 3.6, 3.4 ブランチそれぞれのセキュリティー更新
+です。
+
+
+ダウンロード
+------------
+  Bugzilla のダウンロードは以下から行えます。
+
+  http://www.bugzilla.org/download/
+
+  日本語版については、日本語版テンプレートパックを以下からダウンロードでき
+ます。ご利用のバージョンのリリースアーカイブを解凍後、template/ja ディレク
+トリにファイルを (template/en ディレクトリと同様に) 配置して checksetup.pl 
+を実行してください。
+
+  http://bug-ja.org/releases/
+
+
+セキュリティー情報
+------------------
+  このリリースで修正されたセキュリティーアドバイザリは以下にあります。(英語)
+
+ http://www.bugzilla.org/security/3.4.12/
+
+
+リリースノートと変更点
+----------------------
+  インストールやアップグレードの前に、利用しているバージョンのリリースノー
+トをご覧ください。
+
+ 4.2rc1: http://www.bugzilla.org/releases/4.2/release-notes.html
+ 4.0.3:  http://www.bugzilla.org/releases/4.0.3/release-notes.html
+ 3.6.7:  http://www.bugzilla.org/releases/3.6.7/release-notes.html
+ 3.4.13: http://www.bugzilla.org/releases/3.4.13/release-notes.html
+
+  日本語版は、日本語版テンプレートの中に含まれます。ウェブページ形式のもの
+は、landfill をご覧ください。(なお、最新版により更新されます。)
+  4.2rc1 についてはまだ英語のままです。
+
+ 4.2rc1: http://landfill.bug-ja.org/ja-402/page.cgi?id=release-notes.html
+ 4.0.3:  http://landfill.bug-ja.org/ja-400/page.cgi?id=release-notes.html
+ 3.6.7:  http://landfill.bug-ja.org/ja-306/page.cgi?id=release-notes.html
+ 3.4.13: http://landfill.bug-ja.org/ja-304/page.cgi?id=release-notes.html
+
+  メジャーバージョン間のアップグレードを行う場合、リリースノートを読んでい
+ただくことが重要です(3.4.x から 3.6.x など)。
+
+  あなたのバージョンから現在の最新版の間のすべての変更点のリストもあります。
+
+  http://www.bugzilla.org/status/changes.html
+
+
+Bugzilla 更新情報
+-----------------
+  Bugzilla プロジェクトからの最新ニュースや最新の開発版についての情報は、
+Bugzilla Update にもあります。(英語)
+
+  http://bugzillaupdate.wordpress.com/
+
+  Bugzilla プロジェクトでは Bugzilla での開発中の新機能やリリースプランな
+どについてより頻繁に情報をお届けするために Twitter アカウントを開設しまし
+た。ぜひともフォローしてください。(英語)
+
+   http://twitter.com/bugzilla
+
+
+バグ報告
+--------
+  Bugzilla にバグを発見した場合、報告してください！
+
+  http://www.bugzilla.org/developers/reporting_bugs.html
+
+  日本語でのバグ報告は、bugzilla@jpmoz までお願いします。
+
+  http://bugzilla.jpmoz.net/
+
+
+サポート
+--------
+  Bugzilla に関する、英語のメーリングリストや IRC もあります。もしくは、有償
+サポートを提供するコンサルタントも存在します。
+
+  無償サポート: http://www.bugzilla.org/support/
+  有償サポート: http://www.bugzilla.org/support/consulting.html
+
+  日本語でのメーリングリストなどユーザ相互サポートの場は現在準備中です。IRC
+チャネル (utf-8) はご利用になれます。
+
+  irc://irc.jpmoz.net/bug-ja
+
+
+Bugzilla とは
+-------------
+  Bugzilla は、"欠陥追跡システム" や "問題追跡システム" と呼ばれるソフトウェ
+アです。欠陥追跡システムでは、開発者個人やグループが、製品に存在するバグを効
+率よく追跡することができます。通常の商用欠陥追跡システムでは費用がかかります。
+Bugzilla は、"フリー"でありながら、そのような商用システムが持っていないような
+機能もあります。その結果、Bugzilla は全世界にわたる数千もの組織に利用されるよ
+うになり、もっともよく利用される欠陥追跡システムとして広く認知されています。
+
+  詳細は http://www.bugzilla.org/about/ をご覧ください。
+
+原文:  -Max Kanat-Alexander / Release Manager, Bugzilla Project
+日本語版: bug-ja.org
+
+
+
